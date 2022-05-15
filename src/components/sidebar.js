@@ -175,10 +175,7 @@ const Sidebar = (props) => {
                 data-bs-parent="#sidebar"
               >
                 <li class="nav-item">
-                  <a
-                    class="nav-link "
-                    href="../dashboard/app/user-profile.html"
-                  >
+                  <Link class="nav-link " to={"/userprofile"}>
                     <i class="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -198,10 +195,10 @@ const Sidebar = (props) => {
                     </i>
                     <i class="sidenav-mini-icon"> U </i>
                     <span class="item-name">User Profile</span>
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="../dashboard/app/user-add.html">
+                  <Link class="nav-link " to={"/useradd"}>
                     <i class="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -221,10 +218,10 @@ const Sidebar = (props) => {
                     </i>
                     <i class="sidenav-mini-icon"> U </i>
                     <span class="item-name">User Edit</span>
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="../dashboard/app/user-list.html">
+                  <Link class="nav-link " to={"/userlist"}>
                     <i class="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +241,7 @@ const Sidebar = (props) => {
                     </i>
                     <i class="sidenav-mini-icon"> U </i>
                     <span class="item-name">User List</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -528,7 +525,7 @@ const Sidebar = (props) => {
               <hr class="hr-horizontal" />
             </li>
             <li class="nav-item">
-              <Link class="nav-link " to={"/"}>
+              <Link class="nav-link " to={"/components"}>
                 <i class="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

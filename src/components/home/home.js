@@ -9,15 +9,13 @@ import TeamChat from "./teamChat";
 
 const Dashboard = (props) => {
   return (
-    <>
-      <div class="container-fluid content-inner pb-0">
-        <div class="row">
-          <Hero />
-          <ContentSide />
-          <TeamChat />
-        </div>
+    <div class="container-fluid content-inner pb-0">
+      <div class="row">
+        <Hero />
+        <ContentSide />
+        <TeamChat />
       </div>
-    </>
+    </div>
   );
 };
 
