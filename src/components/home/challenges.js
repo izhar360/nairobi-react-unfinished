@@ -5,6 +5,7 @@ import icons5 from "../../assets/images/icons/05.png";
 import icons6 from "../../assets/images/icons/06.png";
 import icons7 from "../../assets/images/icons/07.png";
 import icons1 from "../../assets/images/icons/01.png";
+
 /**
  * @author
  * @function Challenges
